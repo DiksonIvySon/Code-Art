@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body h1 {
+    transition: all 0.5s;
+}
+
+body h1:hover {
+    cursor: pointer;
+    color: green;
+    font-size: 70px;
+    letter-spacing: 30px;
+}
