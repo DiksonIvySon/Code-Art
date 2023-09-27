@@ -1,0 +1,23 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation: box 1s ease 0.5s infinite alternate;
+}
+
+@keyframes box {
+    0% {
+        width: 100px; height: 100px; background-color: red;
+    }
+    100% {
+        width: 200px; height: 200px; background-color: blue;
+    }
+}
